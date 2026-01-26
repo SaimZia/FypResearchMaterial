@@ -1,0 +1,153 @@
+dataset 1: RipAtlas (Latency RTT) this can be used for  Real network conditions for latency analysis and switching logic.
+
+Dataset 2: 
+
+
+
+
+research paper 1: Enhancing Cross-Regional Multiplayer Gaming: Implementing
+Client-Side Prediction to Reduce Network Latency 
+What it is:
+This study evaluates the impact of client-side prediction on reducing lag and improving responsiveness in multiplayer games under high latency.
+
+How to use it:
+
+Support your lag mitigation techniques section.
+
+Use experimental results as evidence that client-side prediction significantly improves responsiveness.
+
+What to extract:
+✔ How to implement client-side prediction
+✔ Performance data (latency reduction figures)
+✔ Bandwidth vs responsiveness trade-offs
+
+Section to reference:
+Methodology or literature review on lag compensation.
+
+research paper 2: Netskip—A Novel Architecture for Consistent Multiplayer Videogame State
+What it is:
+This paper proposes a hybrid architecture called Netskip, which combines elements of peer-to-peer and client-server models to provide consistency and resilience in multiplayer games.
+
+How to use it:
+
+Use this as a closely related work that also proposes a hybrid networking architecture.
+
+Compare your switching approach with their method of combining architectures.
+
+What to extract:
+✔ Hybrid architecture design insights
+✔ Use of CRDT (Conflict-Free Replicated Data Types) for state synchronization
+✔ Empirical performance comparison between models
+✔ Formal reasoning on consistency guarantees
+
+Section to reference:
+Related work, architecture comparison, state consistency approach.
+
+research paper 3: A Systematic Mapping Study of MMOG Backend Architectures
+What it is:
+A survey that categorizes multiplayer networking models, including peer-to-peer, client-server, and hybrid systems.
+
+How to use it:
+
+Provide a theoretical foundation for architecture concepts.
+
+Justify why a hybrid design is needed by summarizing limitations of existing models.
+
+What to extract:
+✔ Definitions and properties of each model
+✔ Strengths/weaknesses of P2P vs client-server vs hybrid
+✔ Architecture taxonomy and typical game usage
+
+Section to reference:
+Literature review; helps organize background framework.
+
+research paper 4: Network Optimizing Software Solution for Multiplayer Gaming (2024)
+
+What it is:
+This paper proposes network optimization techniques using simulation tools (Omnet++ / INET) to improve latency and packet loss handling for multiplayer gaming.
+
+How to use it:
+
+Support your evaluation methodology with network optimization techniques.
+
+Cite this when discussing simulation and stress tests.
+
+What to extract:
+✔ Simulation tools and setup
+✔ QoS improvement techniques
+✔ Impact metrics on latency and packet loss
+
+Section to reference:
+Methodology & evaluation design.
+
+research paper 5: 
+CRDT-Based Game State Synchronization in P2P VR (2025)
+
+What it is:
+Investigates using CRDTs to maintain game state consistency in decentralized peer-to-peer environments.
+
+How to use it:
+
+Support your state synchronization section, especially for decentralized architecture.
+
+CRDTs can inspire state persistence techniques during switching.
+
+What to extract:
+✔ CRDT benefits for game state consistency
+✔ Synchronization strategies while tolerant to network issues
+
+Section to reference:
+Methodology & synchronization approach.
+
+
+research paper 6: AFLL: Real-Time Load Stabilization for MMO Game Servers (2026)
+
+What it is:
+Presents an adaptive system to stabilize MMO server load using learning techniques.
+
+How to use it:
+
+Useful if you include load adaptation based on network conditions.
+
+Reinforce the value of dynamic decisions in networking.
+
+What to extract:
+✔ Real-time adaptive strategies
+✔ Impact on latency & load balancing
+
+Section to reference:
+Discussion or future work comparison.
+
+research paper 7:(supporting)
+Real-time latency prediction for cloud gaming applications
+Network Health Metrics (Very Important for You)
+
+Your research question asks:
+
+What network health metrics can determine optimal switching points?
+
+This paper gives you:
+
+RTT (Round Trip Time)
+
+Jitter
+
+Packet delay variation
+
+Bandwidth fluctuation
+
+✔ You can cite this paper to justify which metrics your master server monitors before switching.
+
+2️⃣ Decision Trigger Logic
+
+The paper predicts latency before it becomes bad.
+
+You can use this idea to say:
+
+Our system predicts upcoming latency spikes and proactively switches from P2P to a dedicated server (or vice versa) to maintain gameplay quality.
+
+✔ This strengthens your architecture switching logic.
+
+Bonus Reference (Classic but Useful)
+P2P Architectures for MMOGs: A Survey – shows traditional trade-offs and scalability issues.
+
