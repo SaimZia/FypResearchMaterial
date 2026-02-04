@@ -1,6 +1,12 @@
 dataset 1: RipAtlas (Latency RTT) this can be used for  Real network conditions for latency analysis and switching logic.
 
-Dataset 2: 
+Dataset 2: FCC Measuring Broadband America
+Description: 
+Consumer broadband performance data
+Purpose:
+Model realistic home-user networks
+To evaluate switching under poor ISP quality
+
 
 
 
